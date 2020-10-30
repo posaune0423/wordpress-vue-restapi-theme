@@ -49,7 +49,6 @@ if ( ! function_exists( 'register_rest_category_name' )) {
         ));
     }
     function get_category_name( $object ) {
-      // var_dump($object['categories']);
       if (!empty($object['categories'])) {
         $category = get_the_category($object[ 'id' ]);
         return $category[0]->cat_name;
