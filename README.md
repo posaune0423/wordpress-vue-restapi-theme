@@ -14,6 +14,8 @@ thank you for visiting my repositry😀
 
 ## Before using
 
+On youe server which WordPress installed, you have to run npm command, so before using this theme, please install node & npm into your server.
+
 ### Ubuntu
 
 if your OS is Ubuntu, then run
